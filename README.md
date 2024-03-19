@@ -9,5 +9,5 @@ Generate a solution that improves the conversion rate of sales leads through pre
 
 [**2. Forecasting Retail**](https://github.com/ACCpath/MachineLearning/tree/main/Retail)
 
-Generate a sales forecasting solution for a large distributor in the food sector with the purpose of contributing to the reduction of warehouse costs and increasing income by reducing stockouts, through the development of machine learning models to predict sales in the next 8 days at the store-product level.
+Generate a sales forecasting solution for a large distributor in the food sector with the purpose of contributing to the reduction of warehouse costs and increasing income by reducing stockouts, through the development of machine learning models that project sales in the next 8 days at the store-product level.
 

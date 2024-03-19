@@ -4,7 +4,7 @@
 
 ### **Objetive**
 
-Generate a sales forecasting solution for a large distributor in the food sector with the purpose of contributing to the reduction of warehouse costs and increasing income by reducing stockouts, through the development of machine learning models to predict sales in the next 8 days at the store-product level.
+Generate a sales forecasting solution for a large distributor in the food sector with the purpose of contributing to the reduction of warehouse costs and increasing income by reducing stockouts, through the development of machine learning models to project sales in the next 8 days at the store-product level.
 
 ### **Data preparation**
 
@@ -34,8 +34,8 @@ For the implementation of the models in the production environment, the [trainin
 
 ### **Model evaluation**
 
-* In terms of the accuracy of product prediction at the store level, the Mean Absolute Error (MAE) metric was around 8 units.
-* The performance of the models predicts better for products from store 4 with a MAE less than 6 units.
+* In terms of the accuracy of product projection at the store level, the Mean Absolute Error (MAE) metric was around 8 units.
+* The performance of the models better projects for products from store 4 with a MAE less than 6 units.
 
 ![](./media/forecasting_mae.png)
 
