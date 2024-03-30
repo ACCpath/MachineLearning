@@ -3,11 +3,9 @@
 # executionmodelrisk.py
 __version__ = '1.0'
 
-import os
 import pandas as pd
 import pickle
 
-project_path = './'
 # Data processing functions
 def data_quality(df):
     temp = df.copy()
@@ -26,18 +24,15 @@ def get_expected_loss(df):
     # LOAD EXECUTION PIPELINES
     
     # Probability Default(PD)
-    full_path = os.path.join(project_path, 'models', 'execution_pipe_pd.pickle')
-    with open(full_path, mode='rb') as file:
+    with open('execution_pipe_pd.pickle', mode='rb') as file:
         execution_pipe_pd = pickle.load(file)
 
     # Exposure at Default (EAD)
-    full_path = os.path.join(project_path, 'models', 'execution_pipe_ead.pickle')
-    with open(full_path, mode='rb') as file:
+    with open('execution_pipe_ead.pickle', mode='rb') as file:
         execution_pipe_ead = pickle.load(file)
 
     # Loss Given Default (LGD)
-    full_path = os.path.join(project_path, 'models', 'execution_pipe_lgd.pickle')
-    with open(full_path, mode='rb') as file:
+    with open('execution_pipe_lgd.pickle', mode='rb') as file:
         execution_pipe_lgd = pickle.load(file)
     
     # Execution
