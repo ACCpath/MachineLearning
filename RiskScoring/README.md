@@ -31,9 +31,9 @@ For the implementation of the models in the production environment, the [trainin
 
 ## **Conclusions**
 
-### **[Risk Score Analyzer]()**
+### **[Risk Score Analyzer](https://accriskscoreanalyzer.streamlit.app/)**
 
-* Prototype of the [application]() of models to project Expected Loss(EL) and the recommended commission to be applied by the bank
+* Prototype of the [application](https://accriskscoreanalyzer.streamlit.app/) of models to project Expected Loss(EL) and the recommended commission to be applied by the bank
 
 ![](./media/app_scoring.png)
 
