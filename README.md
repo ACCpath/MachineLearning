@@ -11,3 +11,6 @@ Generate a solution that improves the conversion rate of sales leads through pre
 
 Generate a sales forecasting solution for a large distributor in the food sector with the purpose of contributing to the reduction of warehouse costs and increasing income by reducing stockouts, through the development of machine learning models that project sales in the next 8 days at the store-product level.
 
+[**3. Risk Scoring**](https://github.com/ACCpath/MachineLearning/tree/main/RiskScoring)
+
+Project the Expected Loss(EL) when granting a bank loan, with the purpose of evaluating the risk before providing it to the client, using machine learning models with a risk scoring approach.
