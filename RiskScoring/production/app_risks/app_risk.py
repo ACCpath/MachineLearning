@@ -1,15 +1,18 @@
+import pathlib
 import pandas as pd
 import streamlit as st
 from streamlit_echarts import st_echarts
 from executionmodelrisk import get_expected_loss
 
-
+path_dir = pathlib.Path(__name__).parent.resolve()
 # Page settings
 st.set_page_config(page_title='Risk Score Analyzer', layout='wide')
 
 # Side bar
 with st.sidebar:
-    st.image('risk_score.jpg')
+    full_path = path_dir / 'risk_score.jpg' 
+    full_path = full_path.resolve()         
+    st.image(str(full_path))
     #Input data
     principal = st.number_input('**Requested amount**', 500, 50_000)
     purpose_list = [
