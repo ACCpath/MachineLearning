@@ -9,7 +9,7 @@ st.set_page_config(page_title='Risk Score Analyzer', layout='wide')
 
 # Side bar
 with st.sidebar:
-    #st.image('risk_score.jpg')
+    st.image('risk_score.jpg')
     #Input data
     principal = st.number_input('**Requested amount**', 500, 50_000)
     purpose_list = [
