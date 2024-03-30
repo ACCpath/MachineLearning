@@ -2,3 +2,8 @@ Retail/notebooks/02_forecasting_modelization_regression.ipynb
 Retail/notebooks/prepare_dashboard_data.ipynb
 .ipynb_checkpoints/
 Retail/.ipynb_checkpoints/
+RiskScoring/notebooks/02_riskscoring_modelization_pd.ipynb
+RiskScoring/notebooks/03_riskscoring_modeling_ead.ipynb
+RiskScoring/notebooks/04_riskscoring_modeling_lgd.ipynb
+RiskScoring/notebooks/.ipynb_checkpoints/
+RiskScoring/.ipynb_checkpoints/
